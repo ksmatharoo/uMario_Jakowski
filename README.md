@@ -30,6 +30,15 @@ FreeBSD:
 OS X (brew):
 
     $ brew install cmake sdl2 sdl2_image sdl2_mixer
+    
+Ubuntu 20.04.3 LTS:
+
+    $ sudo apt-get install libsdl2-dev
+    $ sudo apt-get install libsdl2_image-dev
+    $ sudo apt-get install libsdl2-mixer-dev
+    $ mkdir build; cd build ; cmake .. ; make
+    $ ./uMario
+
 
 ## Building and running
 
